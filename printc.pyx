@@ -1,7 +1,7 @@
 import cython
 
 cdef extern from "print.h":
-    double print(char word, char color)
+    char print(char word, char color)
     
 def print(char word, char color):
     print(word, color)
