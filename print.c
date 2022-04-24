@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int printc(char word, char color){
-    if (color == "black")
+    if (strcmp(color, "black") == 0)
     {
         printf("\x1b[40m");
     }
-    else if(color == "red")
+    else if(str(color, "red") == 0)
     {
         printf("\x1b[41m");
     }
