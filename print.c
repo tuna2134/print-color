@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int print(char word, char color){
+int printc(char word, char color){
     if (color == "black")
     {
         printf("\x1b[40m");
