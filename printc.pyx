@@ -1,4 +1,4 @@
 import cython
     
-def printc(char word, char color):
+def printc(str word, str color):
     printc(word, color)
