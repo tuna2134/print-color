@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int printc(char word, char color){
+int printcolof(char word, char color){
     if (strcmp(color, "black") == 0)
     {
         printf("\x1b[40m");
