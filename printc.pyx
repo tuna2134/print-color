@@ -1,4 +1,5 @@
 import cython
+cimport printc
     
 def printc(str word, str color):
-    printcolor(word, color)
+    printc.printcolor(word, color)
